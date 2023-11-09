@@ -1,3 +1,5 @@
+import selfPortrait from "../assets/images/Portrait.png";
+
 export default function AboutMe(){
     return(
         <div className="container p-4 text-center">
@@ -7,6 +9,8 @@ export default function AboutMe(){
           While I might not have loads of professional experience under my belt just yet, what I lack in experience, I make up for with 
           passion and a hunger to learn. I&apos;ve been tinkering with code and building websites for a while now. It&apos;s a creative playground where I get to mix design with functionality. Every project I work on is a chance to learn something new and create something awesome.
         </p>
+
+        <img src={selfPortrait} width="300" id="self-portrait"></img>
       </div>
     )
 }
