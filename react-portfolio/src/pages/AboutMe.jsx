@@ -10,7 +10,7 @@ export default function AboutMe(){
           passion and a hunger to learn. I&apos;ve been tinkering with code and building websites for a while now. It&apos;s a creative playground where I get to mix design with functionality. Every project I work on is a chance to learn something new and create something awesome.
         </p>
 
-        <img src={selfPortrait} width="300" id="self-portrait"></img>
+        <img src={selfPortrait} width="300" id="portrait-border"></img>
       </div>
     )
 }
