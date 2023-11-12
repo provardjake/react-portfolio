@@ -7,14 +7,34 @@ button{
     text-align: center;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 8px;
+    text-align: center;
+  }
+
 button:hover{
     background-color: #352736;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: #4C394D;
+    font-size: 150%;
+}
+
+.footer-link:hover{
+    color: #251b26;
 }
 
 .nav-dark{
     color: #4C394D;
 }
 
+/* CSS for whadaya animation */
 .animate-character
 {
    text-transform: uppercase;

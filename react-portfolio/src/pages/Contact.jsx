@@ -11,6 +11,7 @@ export default function Contact(){
   const [messageErrorMessage, setMessageErrorMessage] = useState("");
   
 
+  // function to check if the from fields have been completed when the cursor leaves the field
   const handleMouseLeave = (e) =>{
     e.preventDefault();
     const {target} = e;
@@ -37,6 +38,7 @@ export default function Contact(){
 
   }
 
+  // checks if all fields and email is valid when form is submitted
   const handleFormSubmit = (e)=>{
     e.preventDefault();
 
