@@ -122,7 +122,7 @@ export default function Contact(){
             >
             </textarea>
 
-            <button type="submit">Submit</button>
+            <button type="submit" className="mt-4">Submit</button>
           </form>
         </div>
 
