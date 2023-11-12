@@ -3,7 +3,7 @@ import whadayaPreview from "../assets/images/Whadaya-Preview.png";
 import placeholder from "../assets/images/placeholder-300.png";
 import {Link} from "react-router-dom";
 
-export default function AboutMe(){
+export default function Portfolio(){
   return(
     <div className="container">
       <div className="text-center">
